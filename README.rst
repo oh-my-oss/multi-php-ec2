@@ -12,7 +12,8 @@ Multi PHP setup
 
 - Virtualbox インストール済み
 - Vagrant インストール済み
-- Chef Zero インストール済み
+- Chef Development Kit インストール済み
+- chef knife-zero berkshelf をインストール済み
 - ローカルに PHP をインストール済み
 
 セットアップ
