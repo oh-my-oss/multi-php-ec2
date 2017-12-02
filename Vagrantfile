@@ -16,6 +16,10 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder Dir::pwd, "/vagrant", :owner => 'vagrant', :group => 'vagrant', mount_options: ["dmode=775", "fmode=775"]
 
+  config.vm.provider :virtualbox do |v|
+      v.customize ["modifyvm", :id, "--memory", 2018]
+  end
+
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
