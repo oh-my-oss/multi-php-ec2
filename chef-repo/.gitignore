@@ -24,7 +24,7 @@ nodes
 # ## Example of the workstation pattern.
 # !/cookbooks/chef_workstation/files/default/bundler/Gemfile
 # !/cookbooks/chef_workstation/files/default/bundler/Gemfile.lock
-# cookbooks/*
+cookbooks/*
 # !cookbooks/chef_workstation
 
 # ##Chef

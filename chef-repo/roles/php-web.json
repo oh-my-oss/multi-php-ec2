@@ -1,0 +1,12 @@
+{
+    "name": "php-web",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "description": "HTTP Server",
+    "default_attributes": {
+        "tz": "Asia/Tokyo"
+    },
+    "run_list": [
+        "recipe[phpbrew]"
+    ]
+}

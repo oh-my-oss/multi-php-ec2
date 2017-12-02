@@ -1,0 +1,32 @@
+{
+  "name": "php-multi.local.com",
+  "normal": {
+    "knife_zero": {
+      "host": "php-multi.local.com"
+    },
+    "tags": [],
+    "fqdn": "php-multi.local.com"
+  },
+  "automatic": {
+    "os": "linux",
+    "os_version": "4.9.17-8.31.amzn1.x86_64",
+    "hostname": "10",
+    "ipaddress": "10.0.2.15",
+    "roles": [],
+    "recipes": [],
+    "platform": "amazon",
+    "platform_version": "2017.03",
+    "cloud": null,
+    "cloud_v2": null,
+    "chef_packages": {
+      "chef": {
+        "version": "13.6.4",
+        "chef_root": "/opt/chef/embedded/lib/ruby/gems/2.4.0/gems/chef-13.6.4/lib"
+      },
+      "ohai": {
+        "version": "13.6.0",
+        "ohai_root": "/opt/chef/embedded/lib/ruby/gems/2.4.0/gems/ohai-13.6.0/lib/ohai"
+      }
+    }
+  }
+}
