@@ -22,6 +22,8 @@ Multi PHP setup
 
     $ git clone https://github.com/oh-my-oss/multi-php-ec2.git
     $ cd multi-php-ec2
+    $ vagrant up --provision
+
     $ git submodule init
     $ git submodule update
 
