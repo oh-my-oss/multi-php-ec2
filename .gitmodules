@@ -1,0 +1,3 @@
+[submodule "chef-repo/cookbooks/phpbrew"]
+	path = chef-repo/cookbooks/phpbrew
+	url = https://github.com/oh-my-oss/cookbook-phpbrew.git
