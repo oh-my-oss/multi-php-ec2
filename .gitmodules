@@ -4,3 +4,6 @@
 [submodule "chef-repo/cookbooks/httpd"]
 	path = chef-repo/cookbooks/httpd
 	url = git@github.com:oh-my-oss/cookbook-httpd.git
+[submodule "chef-repo/cookbooks/base"]
+	path = chef-repo/cookbooks/base
+	url = https://github.com/oh-my-oss/cookbook-base.git
