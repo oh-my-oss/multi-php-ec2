@@ -7,6 +7,7 @@
         "tz": "Asia/Tokyo"
     },
     "run_list": [
+        "recipe[base]",
         "recipe[httpd]",
         "recipe[httpd::ssl]",
         "recipe[phpbrew]"
