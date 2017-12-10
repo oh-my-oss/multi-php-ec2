@@ -1,3 +1,6 @@
 [submodule "chef-repo/cookbooks/phpbrew"]
 	path = chef-repo/cookbooks/phpbrew
 	url = https://github.com/oh-my-oss/cookbook-phpbrew.git
+[submodule "chef-repo/cookbooks/httpd"]
+	path = chef-repo/cookbooks/httpd
+	url = git@github.com:oh-my-oss/cookbook-httpd.git
