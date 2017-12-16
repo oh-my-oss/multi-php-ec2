@@ -7,3 +7,6 @@
 [submodule "chef-repo/cookbooks/base"]
 	path = chef-repo/cookbooks/base
 	url = https://github.com/oh-my-oss/cookbook-base.git
+[submodule "chef-repo/cookbooks/mysqld"]
+	path = chef-repo/cookbooks/mysqld
+	url = git@github.com:oh-my-oss/cookbook-mysqld.git

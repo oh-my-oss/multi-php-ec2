@@ -10,6 +10,7 @@
         "recipe[base]",
         "recipe[httpd]",
         "recipe[httpd::ssl]",
-        "recipe[phpbrew]"
+        "recipe[phpbrew]",
+        "recipe[mysqld]"
     ]
 }
