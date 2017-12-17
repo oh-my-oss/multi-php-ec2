@@ -12,7 +12,8 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "mvbcoding/awslinux"
+  config.vm.box = "urabe/awslinux-15g"
+  config.vm.box_version = "0.1.0"
 
   config.vm.synced_folder Dir::pwd, "/vagrant", :owner => 'vagrant', :group => 'vagrant', mount_options: ["dmode=775", "fmode=775"]
 
