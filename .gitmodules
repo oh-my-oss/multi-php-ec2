@@ -10,3 +10,9 @@
 [submodule "chef-repo/cookbooks/mysqld"]
 	path = chef-repo/cookbooks/mysqld
 	url = git@github.com:oh-my-oss/cookbook-mysqld.git
+[submodule "chef-repo/cookbooks/tar"]
+	path = chef-repo/cookbooks/tar
+	url = https://github.com/chef-cookbooks/tar.git
+[submodule "chef-repo/cookbooks/dynamodb-local"]
+	path = chef-repo/cookbooks/dynamodb-local
+	url = https://github.com/oh-my-oss/cookbook-dynamodb-local.git
