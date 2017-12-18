@@ -11,6 +11,9 @@
         "recipe[httpd]",
         "recipe[httpd::ssl]",
         "recipe[phpbrew]",
+        "recipe[dynamodb-local]",
+        "recipe[dynamodb-local::upstart]",
+        "recipe[phpbrew]",
         "recipe[mysqld]"
     ]
 }
