@@ -4,10 +4,10 @@
     "chef_type": "environment",
     "json_class": "Chef::Environment",
     "default_attributes": {
-        "php_versions": ["7.2.0", "5.6.31"],
-        "phpbrew_install_arg": "+default +pdo +mysql",
+        "php_versions": ["7.0.2", "5.3.27"],
+        "phpbrew_install_arg": "+default +pdo +mysql +exif +ftp +gd +gettext +gmp +hash +iconv +session +soap +sqlite +wddx +xml_all +zlib",
         "user": "vagrant",
-        "mysqld_versions": ["5.7.20", "5.6.38"]
+        "mysqld_versions": ["5.5.58", "5.6.38"]
     },
     "override_attributes": {
     },
